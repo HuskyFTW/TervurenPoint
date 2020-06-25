@@ -10,4 +10,4 @@ Tervuren has the very well known "Park van Tervuren/ Warande van Tervuren" which
 ## RecyclePoint
 This is an extra feature, where im working on. I have the intention to implement all recycle spots in Tervuren as of a way to keep this Beautifull city clean.
 
-![Login](https://i.imgur.com/rfAV94m.png)
+![Login](https://i.imgur.com/rfAV94m.png | width=100px)![Recycle](https://i.imgur.com/yVgVf4w.png | width=100px)![Login](https://i.imgur.com/9Hc6Lj3.png | width=100px)
