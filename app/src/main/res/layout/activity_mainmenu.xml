@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainmenu">
+
+
+
+    <ImageView
+        android:id="@+id/Background"
+        android:layout_width="575dp"
+        android:layout_height="909dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488"
+        app:srcCompat="@drawable/mainmenu" />
+
+    <ImageView
+        android:id="@+id/TervurenPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="757dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tervurenpoint1" />
+
+    <ImageView
+        android:id="@+id/Arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="756dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/t1" />
+
+    <ImageView
+        android:id="@+id/Arrow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="756dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ligne_10" />
+
+    <ImageView
+        android:id="@+id/Arrow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="746dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ligne_20" />
+
+    <ImageView
+        android:id="@+id/mainmenu_rectangle"
+        android:layout_width="569dp"
+        android:layout_height="418dp"
+        android:layout_marginTop="517dp"
+        android:alpha="0.6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mainmenu_rectangle" />
+
+    <ImageView
+        android:id="@+id/verassendveelzijdig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="702dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/verassend_veelzijdig" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="310dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/our_apps" />
+
+    <ImageButton
+        android:id="@+id/LocalPoint"
+        android:layout_width="213dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="152dp"
+        android:alpha="0.8"
+        android:background="@drawable/mainmenu_buttons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mainmenu_localpoint" />
+
+    <ImageButton
+        android:id="@+id/ParkPoint"
+        android:layout_width="213dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="152dp"
+        android:alpha="0.8"
+        android:background="@drawable/mainmenu_buttons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mainmenu_parkpoint" />
+
+    <ImageButton
+        android:id="@+id/RecyclePoint"
+        android:layout_width="213dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.8"
+        android:background="@drawable/mainmenu_buttons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mainmenu_recyclepoint" />
+
+    <ImageButton
+        android:id="@+id/MoreInfo"
+        android:layout_width="213dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="685dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.8"
+        android:background="@drawable/mainmenu_buttons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_gemeente_tervuren" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="242dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/localpoint" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="712dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="106dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/more_info" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginBottom="242dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/parkpoint" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="712dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="106dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/recyclepoint1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

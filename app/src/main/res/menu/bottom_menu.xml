@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <item
+        android:id="@+id/RecycleBins"
+        android:title="Recycle Bins"
+        android:icon="@drawable/ic_add">
+    </item>
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_green"/>
+    <item
+        android:id="@+id/Batteries"
+        android:title="Batteries"
+        android:icon="@drawable/ic_battery"/>
+</menu>

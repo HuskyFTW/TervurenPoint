@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "586963295752",
+    "firebase_url": "https://tervurenpoint.firebaseio.com",
+    "project_id": "tervurenpoint",
+    "storage_bucket": "tervurenpoint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586963295752:android:daf305515122eb418cbbbd",
+        "android_client_info": {
+          "package_name": "com.example.tervurenrecycles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586963295752-11go2ompqrg8e878b9mo0dpv56jglbn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tervurenrecycles",
+            "certificate_hash": "03b16f9eb586aae1e6414fc2f72b4150143e1598"
+          }
+        },
+        {
+          "client_id": "586963295752-ifo9hlucdgmckngvqg9m4te12p5tgf20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAznyYjMTb-GKimw801MXjyQ5-0SqHBEE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586963295752-ifo9hlucdgmckngvqg9m4te12p5tgf20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
